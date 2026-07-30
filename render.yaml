@@ -1,14 +1,10 @@
 services:
   - type: web
-    name: h2apk
+    name: skulxa
     runtime: go
     plan: free
     buildCommand: chmod +x render-build.sh && ./render-build.sh
     startCommand: ./h2apk
-    disk:
-      name: output
-      mountPath: /opt/render/project/output
-      sizeGB: 1
     envVars:
       - key: PORT
         value: 10000
