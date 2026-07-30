@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: h2apk
+    runtime: go
+    plan: free
+    buildCommand: chmod +x render-build.sh && ./render-build.sh
+    startCommand: ./h2apk
+    disk:
+      name: output
+      mountPath: /opt/render/project/output
+      sizeGB: 1
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: RENDER_PROJECT_DIR
+        value: /opt/render/project
