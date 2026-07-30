@@ -3,6 +3,7 @@ services:
     name: skulxa
     runtime: go
     plan: free
+    repo: https://github.com/nolimitkos/skulxa
     buildCommand: chmod +x render-build.sh && ./render-build.sh
     startCommand: ./h2apk
     envVars:
