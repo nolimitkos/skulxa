@@ -1,0 +1,6 @@
+{
+  "port": "10000",
+  "d8_jar": "/opt/render/project/tools/d8.jar",
+  "apksigner_jar": "/opt/render/project/tools/apksigner.jar",
+  "android_jar": "/opt/render/project/tools/android.jar"
+}

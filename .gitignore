@@ -1,0 +1,33 @@
+# Binaries
+h2apk
+h2a
+*.exe
+
+# Output
+output/
+tmp/
+tools/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Claude
+.openclaude/
+
+# Qwen
+QWEN.md
+
+# Secrets
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docs
+docs/
+.qwen/
+testweb/
